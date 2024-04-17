@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
 
@@ -32,6 +32,33 @@
             width: 100%;
         }
     }
+
+    .collapse .navbar-collaps ul li a {
+            font-size: 60px;
+            font-weight: 700;
+        }
+
+        .bgi-left {
+            float: left;
+            width: 400px;
+            height: 500px;
+            background-color: pink;
+            background: url('img/Num8.jpg') no-repeat;
+            background-size: 100%;
+            margin-top: 30px;
+            margin-left: 60px;
+        }
+
+        .bgi-right {
+            float: right;
+            width: 400px;
+            height: 500px;
+            background-color: pink;
+            background: url('img/Num5.jpg') no-repeat;
+            background-size: 100%;
+            margin-top: 30px;
+            margin-right: 60px;
+        }
     </style>
 
 </head>
@@ -44,20 +71,20 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="index.html">Start Bootstrap</a>
+            <a class="navbar-brand page-scroll" href="index.html" style="font-size: 30px;font-family: 'Times New Roman', Times, serif;font-weight: 600;">Green Field</a>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="index.html">Home</a>
+                        <a class="nav-link page-scroll" href="Intro.html" style="font-size: 20px; font-weight: 700;">公司简介</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="about.html">About</a>
+                        <a class="nav-link page-scroll" href="OrgStru.html" style="font-size: 20px; font-weight: 700;">组织架构</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="post.html">Sample Post</a>
+                        <a class="nav-link page-scroll" href="BusnMod.html" style="font-size: 20px; font-weight: 700;">商业模式</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="contact.html">Contact</a>
+                        <a class="nav-link page-scroll" href="CoreMem.html" style="font-size: 20px; font-weight: 700;">核心成员</a>
                     </li>
                 </ul>
             </div>
@@ -65,73 +92,85 @@
     </nav>
 
     <!-- Page Header -->
-    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+    <header class="intro-header" style="background-size: 100%; background-image: linear-gradient(to right, 
+    rgba(0,0,0, 0.5) 0%, 
+    rgba(0,0,0, 0.1) 33.33%, 
+    /* rgba(0, 0, 0, 0.1) 33.33%, 
+    rgba(0, 0, 0, 0.1) 66.66%,  */
+    rgba(0,0,0, 0.1) 66.66%, 
+    rgba(0,0,0, 0.5) 100%
+  ), url('img/Num9.jpg')">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div class="col-lg-10 offset-lg-2 col-md-10 offset-md-1 mx-auto">
                     <div class="site-heading">
-                        <h1>Clean Blog</h1>
-                        <span class="subheading">A Blog Theme by Start Bootstrap</span>
+                        <h1 style="font-family: SimHei ;">绿野有机蔬菜有限公司</h1>
+                        <span class="subheading", style="font-size: 35px;font-family:Georgia, serif;font-weight: 200">Green Field Organic Vegetable Co., Ltd</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- 左右背景图片 -->
+    <div class="bgi-left">
+    </div>
+    <div class="bgi-right">
+    </div>
+
     <!-- Main Content -->
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
                 <div class="post-preview">
-                    <a href="post.html">
+                    <a href="Intro.html">
                         <h2 class="post-title">
-                            Man must explore, and this is exploration at its greatest
+                            公司简介
                         </h2>
-                        <h3 class="post-subtitle">
-                            Problems look mighty small from 150 miles up
+                        <h3 class="post-subtitle", style="font-family:Georgia, serif;font-weight: 200">
+                            Company Introduction
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2017</p>
+                    <!-- <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2017</p> -->
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="post.html">
+                    <a href="OrgStru.html">
                         <h2 class="post-title">
-                            I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
+                            组织架构
                         </h2>
+                        <h3 class="post-subtitle", style="font-family:Georgia, serif;font-weight: 200">
+                            Organization Structure
+                        </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2017</p>
+                    <!-- <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2017</p> -->
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="post.html">
+                    <a href="BusnMod.html">
                         <h2 class="post-title">
-                            Science has not yet mastered prophecy
+                            商业模式
                         </h2>
-                        <h3 class="post-subtitle">
-                            We predict too much for the next year and yet far too little for the next ten.
+                        <h3 class="post-subtitle", style="font-family:Georgia, serif;font-weight: 200">
+                            Business Model
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2017</p>
+                    <!-- <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2017</p> -->
                 </div>
                 <hr>
                 <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="网站模板">网站模板</a></div>
                 <div class="post-preview">
-                    <a href="post.html">
+                    <a href="CoreMem.html">
                         <h2 class="post-title">
-                            Failure is not an option
+                            核心成员
                         </h2>
-                        <h3 class="post-subtitle">
-                            Many say exploration is part of our destiny, but it’s actually our duty to future generations.
+                        <h3 class="post-subtitle", style="font-family:Georgia, serif;font-weight: 200">
+                            Core Member
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2017</p>
+                    <!-- <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2017</p> -->
                 </div>
                 <hr>
-                <!-- Pager -->
-                <div class="clearfix">
-                    <a class="btn btn-secondary float-right" href="#">Older Posts &rarr;</a>
-                </div>
             </div>
         </div>
     </div>
@@ -161,7 +200,7 @@
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://github.com/IceCream0108/LaoBo">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fa fa-github fa-stack-1x fa-inverse"></i>
@@ -169,23 +208,11 @@
                             </a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted">Copyright &copy; Your Website 2017. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+                    <p class="copyright text-muted">Copyright&copy; 2024-/ Green Field. All Rights Reserved</p>
                 </div>
             </div>
         </div>
     </footer>
-
-    <!-- jQuery Version 3.1.1 -->
-    <script src="lib/jquery/jquery.js"></script>
-
-    <!-- Tether -->
-    <script src="lib/tether/tether.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/clean-blog.min.js"></script>
 
 </body>
 
